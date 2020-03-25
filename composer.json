@@ -1,0 +1,27 @@
+{
+  "name": "slejnej/pagination-php",
+  "type": "library",
+  "description": "A PHP pagination that accepts anything and tries to paginate it.",
+  "keywords": ["pagination"],
+  "homepage": "http://github.com/slejnej/pagination-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jernej Slejko",
+      "email": "js@jslejko.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^6.1"
+  },
+  "autoload": {
+    "psr-0": {"Slejnej": "src/"}
+  },
+  "autoload-dev": {
+    "psr-0": {"Slejnej\\spec": "tests/"}
+  }
+
+}
