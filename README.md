@@ -8,6 +8,7 @@ Light weight pagination for PHP with full control over output and displaying of 
 ## Installation
 Install with composer:
 ```
+composer require slejnej/pagination-php
 ```
 
 ## Basic usage
